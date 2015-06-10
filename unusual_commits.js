@@ -71,7 +71,7 @@ function callit(url) {
 		    
 		var ajax_call = function() {
 			$.ajax({
-		        url: "https://localhost:8443/UnusualGitCommit/unusualcommitstatus",
+		        url: "https://feature5.andrew.cmu.edu:8443/UnusualGitCommit/unusualcommitstatus",
 		        type: 'POST',
 		        dataType: 'json',
 				crossDomain: true,
@@ -177,7 +177,7 @@ function sendAjaxPost(username, reponame, commitids) {
     CommitIn.commitids = commitids;
  
     $.ajax({
-        url: "https://localhost:8443/UnusualGitCommit/unusualcommit",
+        url: "https://feature5.andrew.cmu.edu:8443/UnusualGitCommit/unusualcommit",
         type: 'POST',
         dataType: 'json',
 		crossDomain: true,
